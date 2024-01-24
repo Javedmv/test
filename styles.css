@@ -1,0 +1,100 @@
+*{
+    margin: auto;
+}
+
+.navbar-brand {
+    /* width: 1rem;
+    height: 1rem; */
+    color: red;
+    font-weight: 700;
+    float: left;
+    background-size: cover;
+
+}
+
+/* .nav_list{
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+    float: left;
+    margin-left: 1rem;
+    font-weight: 600;
+
+    
+} */
+
+
+
+.hero{
+    position: relative;
+    /* width: 100vw; */
+    
+}
+.hero_text{
+    font-size: large;
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    margin-left: 1rem;
+}
+h2{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+}
+h4{
+    color: red;
+    font-size: 1.5rem;
+ }
+
+ .cardss {
+    margin-top: 2rem    ;
+ }
+
+.card {
+    padding: 0.2rem;
+    background-color:rgba(20,20,20,255) ;
+}
+
+@media screen and (max-width: 450px) {
+    .hero_text {
+        font-size: .7rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: .5rem;
+    }
+    .searchmedia {
+        width: 230px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width:374px){
+    .hero_text {
+        font-size: .5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h4 {
+        font-size: .7rem;
+    }
+    .searchmedia {
+        width: 150px;
+    }
+    h3 {
+        font-size: .4rem;
+    }
+    
+}
+
+@media screen and (min-width: 539px) {
+    .searchmedia {
+        
+        margin-right: 0%;
+    }
+    
+}
+
